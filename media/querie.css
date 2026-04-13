@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*Typical Device Brakpoint
+
+telas pequenas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+DeskTop: 992px até 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    body {
+        background-image: linear-gradient(to top, #5f1919, #141414);
+    }
+    
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    
+    body {
+        background-image: linear-gradient(to top, #5f1919, #141414);
+    }
+
+    section#login {
+        width: 950px;
+    }
+    
+    selection#login > div#imagem {
+        float:left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}

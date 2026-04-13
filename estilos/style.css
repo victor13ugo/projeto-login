@@ -29,6 +29,9 @@ section#login {
 
     /*Deixando a parte superior da tela arredondado*/
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -41,5 +44,6 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
+    display: block;
     padding: 10px;
 }
